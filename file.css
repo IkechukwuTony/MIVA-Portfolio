@@ -55,3 +55,18 @@ body {
 .navbar a:hover {
     color: #00bcd4;
 }
+
+
+
+
+
+.body {
+     display: flex; 
+     align-items: center; 
+     min-height: 100vh; 
+     padding: 40px; 
+     gap: 50px; 
+} 
+.left { 
+    flex: 1; 
+} .left img { width: 100%; max-width: 500px; border-radius: 15px; } .right { flex: 1; } .right h1 { font-size: 40px; margin-bottom: 20px; } .right p { font-size: 18px; line-height: 1.6; } .right button { padding: 12px 25px; border: none; border-radius: 5px; background: #007bff; color: white; cursor: pointer; } .right button:hover { background: #0056b3; } /* Mobile view */ @media (max-width: 768px) { .container { flex-direction: column; text-align: center; } }
